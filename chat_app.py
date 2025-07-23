@@ -10,9 +10,6 @@ from langchain.prompts import PromptTemplate
 import google.generativeai as genai
 from typing import List, Tuple
 
-# Load environment variables
-load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # Load API key from Streamlit secrets
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
