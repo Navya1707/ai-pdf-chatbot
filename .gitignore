@@ -1,0 +1,2 @@
+# Ignore FAISS vector store
+faiss_index/
