@@ -101,7 +101,7 @@ def generate_answer(question, reference_idx=None):
 def main():
     st.set_page_config(page_title="PDF Chat Agent", page_icon="📄", layout="wide")
     st.title("📚 Ask Anything from Your PDFs")
-    st.markdown("Chat with your uploaded documents using Google Gemini + LangChain")
+    st.markdown("Chat with your uploaded documents here!")
 
     init_chat_history()
 
